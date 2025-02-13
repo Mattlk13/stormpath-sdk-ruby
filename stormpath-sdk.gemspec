@@ -28,10 +28,10 @@ Gem::Specification.new do |s|
   s.add_dependency('java_properties')
   s.add_dependency('jwt', '>= 1.5.0')
 
-  s.add_development_dependency 'rake', '~> 0.9.2'
+  s.add_development_dependency 'rake', '~> 13.2.1'
   s.add_development_dependency 'rspec', '~> 3.0.0'
   s.add_development_dependency 'guard-rspec', '~> 4.2.10'
-  s.add_development_dependency 'rack', '~> 1.4.1'
+  s.add_development_dependency 'rack', '~> 3.1.10'
   s.add_development_dependency 'webmock', '~> 1.17.4'
   s.add_development_dependency 'simplecov', '~> 0.7.1'
   s.add_development_dependency 'pry', '~> 0.9.12.1'
